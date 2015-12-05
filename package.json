@@ -1,16 +1,19 @@
 {
   "name": "bubbler",
   "version": "1.0.0",
-  "description": "",
+  "description": "bubbler gives streams ability to bubble up events",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "stream",
+    "bubbler"
+  ],
+  "author": "maboiteaspam",
+  "license": "WTF",
   "dependencies": {
     "debug": "^2.2.0",
-    "flower": "^0.6.0"
+    "flower": "maboiteaspam/flower"
   }
 }
