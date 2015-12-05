@@ -4,7 +4,7 @@
 
 ## Install
 
-    npm i maboiteaspam/bubbler --save-dev
+    npm i maboiteaspam/bubbler --save
 
 ## Usage
 
@@ -12,7 +12,7 @@
 
 var flower = require('flower')
 
-var bubbler = require('./index.js');            // bubbler gives streams ability to bubble up events.
+var bubbler = require('bubbler');               // bubbler gives streams ability to bubble up events.
                                                 //
 var events = ['message'];                       // It needs to know which events to bubble.
                                                 //
