@@ -51,7 +51,7 @@ module.exports = function bubbler (bubbleizedStream, events, name, fnT, fnF) {
     });
     s.on('end', function (){
       events.forEach(function (event) {
-        s.removeEventListener(event, eventsFn[event])
+        s.removeListener(event, eventsFn[event])
       })
     });
     return oldPipe.apply(stream, [].slice.apply(arguments));
@@ -59,7 +59,7 @@ module.exports = function bubbler (bubbleizedStream, events, name, fnT, fnF) {
 
   stream.unpipe = function (s, o) {
     events.forEach(function (event) {
-      s.removeEventListener(event, eventsFn[event])
+      s.removeListener(event, eventsFn[event])
     });
     return oldUnpipe.apply(stream, [].slice.apply(arguments));
   };
