@@ -14,6 +14,7 @@
   "license": "WTF",
   "dependencies": {
     "debug": "^2.2.0",
-    "flower": "maboiteaspam/flower"
+    "flower": "maboiteaspam/flower",
+    "node-string-pad": "0.0.4"
   }
 }
