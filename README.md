@@ -35,10 +35,11 @@ streamC.emit('message', 'hello, its streamC !') // so something shows up at runt
 
 ```
 
-## More
+## Read more
 
 You can see it in action in `npi`
 
 - https://github.com/maboiteaspam/npi
 - https://github.com/maboiteaspam/bubbled
 - https://github.com/maboiteaspam/flower
+- https://github.com/maboiteaspam/event-stream-writer
