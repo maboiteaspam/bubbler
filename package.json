@@ -1,6 +1,6 @@
 {
   "name": "@maboiteaspam/bubbler",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "bubbler gives streams ability to bubble up events",
   "main": "index.js",
   "scripts": {
@@ -22,8 +22,8 @@
   "author": "maboiteaspam",
   "license": "WTF",
   "dependencies": {
-    "@maboiteaspam/flower": "^2.0.0",
-    "debug": "^2.2.0",
+    "@maboiteaspam/flower": ">=2.0.0 <3.0.0-0",
+    "debug": ">=2.2.0 <3.0.0-0",
     "node-string-pad": "0.0.4"
   }
 }
