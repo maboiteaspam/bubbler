@@ -1,20 +1,29 @@
 {
-  "name": "bubbler",
+  "name": "@maboiteaspam/bubbler",
   "version": "1.0.0",
   "description": "bubbler gives streams ability to bubble up events",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dcheck": "npm outdated --depth=0",
+    "patch": "npm version patch -m \"patch %s\"",
+    "minor": "npm version minor -m \"minor %s\"",
+    "major": "npm version major -m \"major %s\"",
+    "preversion": "echo \"npm test: undefined\" && npi --explicit",
+    "version": "echo \"npm run build: undefined\"",
+    "postversion": "git push && git push --tags && npm run public",
+    "public": "npm publish --access=public"
   },
   "keywords": [
     "stream",
-    "bubbler"
+    "bubble",
+    "event"
   ],
   "author": "maboiteaspam",
   "license": "WTF",
   "dependencies": {
+    "@maboiteaspam/flower": "^2.0.0",
     "debug": "^2.2.0",
-    "flower": "maboiteaspam/flower",
     "node-string-pad": "0.0.4"
   }
 }

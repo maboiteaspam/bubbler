@@ -1,6 +1,6 @@
 
 
-var flower = require('flower')
+var flower = require('@maboiteaspam/flower')
 
 var bubbler = require('./index.js');            // bubbler gives streams ability to bubble up events.
                                                 //

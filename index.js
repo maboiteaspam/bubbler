@@ -1,4 +1,4 @@
-var flower = require('flower')
+var flower = require('@maboiteaspam/flower')
 var debug = require('debug')('bubbler')
 var pad = require('node-string-pad');
 var k = 0;
